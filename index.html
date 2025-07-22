@@ -36,7 +36,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 2em;
+      gap: 1em;
       flex-wrap: wrap;
       margin-bottom: 2em;
     }
@@ -96,13 +96,18 @@
 @media (max-width: 600px) {
   .top-section {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1em;
   }
 
-  .profile-pic, .qr-code {
+ .profile-pic, {
     width: 120px;
     height: 120px;
+  }
+
+ .qr-code {
+    width: 130px;
+    height: 130px;
   }
 }
   </style>
